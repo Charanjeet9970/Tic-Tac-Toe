@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+body{
+    background-color: rgb(4, 4, 4);
+    color: violet;
+}
+.game{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 32%;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+.box{
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 1 rgba(255, 255, 255, 0.5);
+    font-size: 40px;
+    color: yellowgreen;
+}
+.S{
+    background-color: blueviolet;
+    border: 1px solid white;
+    border-radius: 3px;
+    position: relative;
+    margin-top: 10px;
+}
+.hide{
+    display: none;
+}
+
